@@ -1,0 +1,12 @@
+{
+  "forms": {
+    "signupForm": {
+      "name": "Sign-Up Form",
+      "actions": [{ 
+        "app": "mailchimp", 
+        "type": "addOrUpdateContact", 
+        "apiKey": "$FORMSPREE_MAILCHIMP_APIKEY" 
+      }]
+    }
+  }
+}
