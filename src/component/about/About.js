@@ -18,22 +18,40 @@ const About = () => {
       <div className="about-me">
         <div className="about-desc">
           <p className={!aboutdesc ? 'more' : 'moreOn'}>
-            Hello! My names are Ifeanyi Joseph Oti, and I&apos;m a full-stack
-            software developer who specializes in using Javascript, React,
-            Redux, and Rails to build software solutions for companies.
-            I&apos;m currently completing coursework at Microverse, Microverse is
-            a remote software development program that uses pair programming
-            and project building to teach web development. I&apos;ve spent the
-            last several months completely immersed in remote development,
-            building everything from landing pages to Rails APIs, and have
-            learned the important skills of communication and teamwork
-            My experience of being a computer scientist at the diplomat level
-            helped me to work with a software and networking company for two
-            years as a customer support engineer. I also know that constant
-            practice is key to growth and I apply this every day since
-            I started learning to code. I also learned in this experience
-            to resolve conflicts as a person and with the team in a
-            peaceful manner which helped me increase my teamwork skills.
+            Ifeanyi Oti is a software engineer who specializes
+            in using Javascript, React, Redux, and Rails to build
+            software solutions for small businesses.
+
+            <p>
+              Before entering the tech industry, he honed
+              his problem-solving skills as a fabricator welder. These
+              experiences equipped him with a unique skill set that allows
+              him to bring a practical and hands-on approach to software development.
+            </p>
+
+            <p>
+              As a software engineer with a background in fabricator
+              welding, he brings a unique combination of technical
+              expertise and hands-on experience to any project. His
+              technical skills in software development, paired with his
+              experience solving complex problems in a hands-on
+              environment, allow him to approach software
+              engineering with a practical, solution-oriented mindset.
+            </p>
+
+            <p>
+              He is currently completing coursework at Microverse,
+              Microverse is a remote software development program
+              that uses pair programming and project building to
+              teach development. He has spent the last several
+              months completely immersed in remote development,
+              building everything from landing pages to Rails APIs,
+              and he has learned the important skills of communication
+              and teamwork.
+              He also learned in this experience to resolve conflicts as
+              a person and with the team in a peaceful manner which helped
+              him increase his teamwork skills.
+            </p>
           </p>
           <span
             className="seeMore-desc"
@@ -44,22 +62,22 @@ const About = () => {
           <p>
             Tech Stack:
             <ul>
-              <li>Languages: JavaScript, HTML, CSS, Ruby, Python, Shell</li>
+              <li>Languages: JavaScript, HTML, CSS, Ruby</li>
               <li>
                 Frameworks &
-                Libraries: React, Next, Redux, Node, Rails,
-                Bootstrap, Tailwind, Bulma
+                Libraries: React, Redux, Rails,
+                Bootstrap, Tailwind
               </li>
-              <li>Databases: PSQL, MySQL (learning MongoDB and firebase)</li>
-              <li>Management & Deployment: Git, GitHub, Jira, Heroku, Netlify, Postman, Terminal</li>
+              <li>Databases: PSQL</li>
+              <li>Management & Deployment: Git, GitHub, Netlify, Postman, Terminal</li>
               <li>Tools & Methods: RSpec, Jest, TDD, Dev Tools, Gitflow</li>
             </ul>
-            I am passionate about learning
-            new technologies as well as building things.
+            He's passionate about learning new technologies as well as building things.
             Always looking for new opportunities.
-            If you would like to get in contact about potential
-            job opportunities, please reach out via email
-            (otijoseph305@gmail.com), and I will respond Promptly!
+            If you'd like to get in contact about
+            potential job opportunities,
+            please reach out via email
+            (otijoseph305@gmail.com).
           </p>
         </div>
         <div>

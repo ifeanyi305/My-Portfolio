@@ -385,7 +385,6 @@ footer li {
 
 .moreOn {
   overflow-y: auto;
-  text-align: justify;
   -webkit-line-clamp: unset;
 }
 
