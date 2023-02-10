@@ -49,10 +49,10 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need to install rspec:
+In order to run this project you need to install node modules:
 
 ```sh
- gem install rspec
+ npm install
 ```
 
 ### Setup
@@ -61,7 +61,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:Kweeka1/test_driven_dev.git
+  git clone github.com/ifeanyi305/my-portfolio.git
 ```
 
 ### Usage
@@ -69,8 +69,8 @@ Clone this repository to your desired folder:
 To run the project, execute the following command:
 
 ```sh
-  cd test_driven_dev
-  rspec ./spec/*_spec.rb
+  cd my-portfolio
+  npm start
 ```
 
 <!-- AUTHORS -->
