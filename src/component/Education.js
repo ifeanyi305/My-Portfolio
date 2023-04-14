@@ -42,7 +42,7 @@ const Education = () => (
       </p>
       <p>
         <b>
-          Built 40+ projects ranging from simple
+          Built 59+ projects ranging from simple
           projects to complex full-stack applications.
         </b>
       </p>

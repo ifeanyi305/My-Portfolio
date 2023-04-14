@@ -57,7 +57,7 @@ const Recommendation = () => {
     <div id="recommendations">
       <h1 className="project-title">
         <MdOutlineSend />
-        <b>Recommendations</b>
+        <b>Testimonials</b>
       </h1>
       <Swiper
         modules={[Navigation, Pagination, Mousewheel, Autoplay]}
@@ -76,21 +76,27 @@ const Recommendation = () => {
         data-aos="fade-up"
       >
         {
-        recomend.map((recommended) => (
-          <SwiperSlide key={recommended.id}>
-            <div className="recomend-con">
-              <div className="recomend-img"><img className="wrap-img" src={recommended.img} alt={recommended.name} /></div>
-              <h2>{recommended.name}</h2>
-              <p>{recommended.role}</p>
-              <div className="quote-con">
-                <FaQuoteLeft className="quote" />
-                <small>{recommended.recomend}</small>
-                <FaQuoteRight className="quote" />
+          recomend.map((recommended) => (
+            <SwiperSlide key={recommended.id}>
+              <div className="recomend-con">
+                <div className="recomend-img"><img className="wrap-img" src={recommended.img} alt={recommended.name} /></div>
+                <h2>{recommended.name}</h2>
+                <p>{recommended.role}</p>
+                <div className="quote-con">
+                  <small>
+                    <span>
+                      <FaQuoteLeft className="quote" />
+                    </span>
+                    {recommended.recomend}
+                    <span>
+                      <FaQuoteRight className="quote" />
+                    </span>
+                  </small>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-        ))
-      }
+            </SwiperSlide>
+          ))
+        }
       </Swiper>
     </div>
   );
