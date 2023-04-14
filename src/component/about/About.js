@@ -68,7 +68,7 @@ const About = () => {
                 Libraries: React, Redux, Rails,
                 Bootstrap, Tailwind
               </li>
-              <li>Databases: PSQL</li>
+              <li>Databases: PostgreSQL</li>
               <li>Management & Deployment: Git, GitHub, Netlify, Postman, Terminal</li>
               <li>Tools & Methods: RSpec, Jest, TDD, Dev Tools, Gitflow</li>
             </ul>
