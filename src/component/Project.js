@@ -5,7 +5,7 @@ import crypto from './images/crypto-tradeoff.png';
 import bookstore from './images/space-travellers.png';
 import Travellers from './images/travellers.png';
 import easyLaunch from './images/easyLaunch.png';
-import budget from './images/budget.png';
+import budget from './images/budget.jpg';
 import leaderboard from './images/leaderboard.png';
 
 const project = [

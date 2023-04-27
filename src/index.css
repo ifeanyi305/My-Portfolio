@@ -34,6 +34,11 @@ code {
 
 .app {
   display: flex;
+  background-color: #05041b;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0 0 0;
@@ -46,6 +51,11 @@ code {
   align-items: center;
 }
 
+.header_links a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .bar {
   display: block;
   width: 16px;
@@ -56,6 +66,12 @@ code {
 
 .main-container {
   margin: 0 58px auto;
+}
+
+.main-container::before {
+  display: block;
+  content: "";
+  height: 80px;
 }
 
 .hamburgerOff {
@@ -124,6 +140,23 @@ footer li {
 @media screen and (max-width: 700px) {
   .telephone {
     display: none;
+  }
+
+  .main-container {
+    margin: 0 18px auto;
+  }
+
+  .wrap-img1 {
+    width: 100%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 600px;
+  }
+
+  .recomend-con {
+    padding: 15px;
   }
 
   .intro-list {
@@ -300,6 +333,10 @@ footer li {
 @media screen and (min-width: 900px) {
   .into-heading {
     width: 50%;
+  }
+
+  .swiper {
+    width: 80%;
   }
 
   .about-me {
@@ -539,7 +576,6 @@ footer ul {
 }
 
 .swiper {
-  width: 80%;
   border: 3px solid #422986;
   background-color: #1e0b4b;
   border-radius: 20px;
