@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Navigation, Pagination, Mousewheel, Autoplay,
+  Pagination, Mousewheel, Autoplay,
 } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
@@ -13,7 +13,9 @@ import ralph from './images/Ralph.jpeg';
 import shaddai from './images/shaddai.jpeg';
 import esther from './images/Esther.jpeg';
 import amine from './images/Amine.jpeg';
-import laura from './images/laura2.jpeg';
+import laura from './images/Amaka_konwea.jpeg';
+import Valentine from './images/valentine.jpeg';
+import Ben from './images/Ben.jpeg';
 
 const Recommendation = () => {
   const recomend = [
@@ -29,7 +31,7 @@ const Recommendation = () => {
       id: 2,
       name: 'Ekpenisi Raphael',
       role: 'Software Developer',
-      recomend: 'Ifeanyi is an exceptional team player with persisting interest in valuable deliveries. He is a balanced software developer with mind-blowing work ethics. A great bond in a team, and his social and technical skills are great to any organisation who by chance is privileged to have him on board.',
+      recomend: 'I strongly endorse Ifeanyi Oti for his outstanding coding expertise and exemplary conduct. He consistently produced top-notch output within the designated timeframe and kept us informed of his advancements. Moreover, he exhibits great teamwork and collaboration skills. I firmly believe that he would be a valuable asset to any team.',
     },
     {
       img: amine,
@@ -52,6 +54,20 @@ const Recommendation = () => {
       role: 'Software Developer',
       recomend: 'Joseph is a very smart and a creative person. We have worked together on many projects, where I have seen his collaborative skills, his contributions and ideas so I can say for a fact he will be an asset to any company. He has actually being of great help to me, been senior to me at Microverse as well. I will definitely recommend him, as he will give any company the worth they need. ',
     },
+    {
+      img: Valentine,
+      id: 6,
+      name: 'Valentine Ezekwonna',
+      role: 'Software Developer',
+      recomend: 'During our time working together on various projects, I have been consistently impressed by Ifeanyis technical skills, work ethic, and dedication to the success of the team As a full-stack software engineer, Ifeanyi has demonstrated an impressive ability to design and implement complex systems. He has a deep understanding of modern software development practices and always stays up-to-date with the latest technologies and trends. He is an excellent problem solver and consistently finds innovative solutions to challenging technical problems. In addition to their technical skills, Ifeanyi is an exceptional team player.',
+    },
+    {
+      img: Ben,
+      id: 7,
+      name: 'Ben Sales',
+      role: 'Software Developer',
+      recomend: 'I am writing to recommend Ifeanyi Oti who is a professional in what he does and has demonstrated his abilities on multiple projects and tasks, his exceptional time management is something I want to point out as well, he delivers tasks and projects following the best practice with ease, I can confidently say he will be an excellent fit for any web developer role and an essential asset to any team.',
+    },
   ];
   return (
     <div id="recommendations">
@@ -60,7 +76,7 @@ const Recommendation = () => {
         <b>Testimonials</b>
       </h1>
       <Swiper
-        modules={[Navigation, Pagination, Mousewheel, Autoplay]}
+        modules={[Pagination, Mousewheel, Autoplay]}
         spaceBetween={30}
         slidesPerView={1}
         loop
@@ -69,7 +85,6 @@ const Recommendation = () => {
           delay: 10000,
           disableOnInteraction: true,
         }}
-        navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         className="swiper"

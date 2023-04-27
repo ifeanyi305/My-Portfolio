@@ -19,11 +19,15 @@ const Header = () => {
         </div>
         <div className="telephone">
           <span><BsFillTelephonePlusFill /></span>
-          <small>+2347067255308</small>
+          <small className="header_links">
+            <a href="tel:+2347067255308" target="_blank" rel="noreferrer">+2347067255308</a>
+          </small>
         </div>
         <div className="telephone">
           <span><FiMail /></span>
-          <small>otijoseph305@gmail.com</small>
+          <small className="header_links">
+            <a href="mailto:otijoseph305@gmail.com" target="_blank" rel="noreferrer">otijoseph305@gmail.com</a>
+          </small>
         </div>
       </div>
       <ul onKeyDown={toggleNav} onClick={toggleNav} className={openNav ? 'hamburgerOn' : 'hamburgerOff'}>
