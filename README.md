@@ -7,6 +7,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Live demo](#live-demo)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -24,20 +25,29 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**Portfolio** In my first milestone in the process of creating my portfolio website, I used the design template from Figma. In this portfolio website, I showcased my skills. This is my first project at Microverce. It's a personal portfolio built with React Js.
+**My Portfolio** is a website that showcases my expertise, my projects, my experience and my testimonials. It's a personal portfolio built with React Js.
 
 ## 🛠 Built With <a name="built-with"></a>
+
+- React JS
+- NPM
+- CSS
 
 ### Tech Stack <a name="tech-stack"></a>
 
 - React JS
 - CSS
+
+<!-- Live demo -->
+### Live demo <a name="live-demo"></a>
+[My Portfolio](https://ifeanyi305.netlify.app/)
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **write unit tests**
-- **Develop the code to make those tests pass**
+- **It displays list of my projects**
+- **It presents recommendations recieved by co-developers**
+- **Include a form to reach out to me via email**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +90,7 @@ To run the project, execute the following command:
 👤 **Ifeanyi Oti**
 
 - GitHub: [@ifeanyi305](https://github.com/ifeanyi305)
-- Twitter: [@OtiJoseph305](https://twitter.com/OtiJoseph305)
+- Twitter: [@OtiJoseph305](https://twitter.com/Otiifeanyi2020)
 - LinkedIn: [oti-joseph-ifeanyi](https://linkedin.com/in/oti-joseph-ifeanyi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -89,7 +99,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add complex methods**
+- [ ] **Add a search input to filter projects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
