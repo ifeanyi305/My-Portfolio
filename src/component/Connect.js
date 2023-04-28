@@ -32,7 +32,7 @@ const Connect = () => {
             </h1>
             <p>
               If you like what you see and have a project you need coded
-              or just have a chat, don’t hestiate to contact me.
+              Or if you just want to chat, please don&apos;t hesitate to get in touch with me.
             </p>
           </div>
           <button onClick={handleModal} className="contact-btn" type="button">Say Hello</button>
@@ -43,8 +43,8 @@ const Connect = () => {
       </div>
       <div className={ismodal ? 'more-projects-on' : 'more-projects'}>
         <p>
-          If you like what you see and have a project you need
-          coded or just have a chat, don’t hestiate to contact me.
+          If you like what you see and have a project you need coded
+          Or if you just want to chat, please don&apos;t hesitate to get in touch with me.
         </p>
         <form onSubmit={(e) => handleSubmit(e)}>
           <input type="text" required id="name" name="name" placeholder="Full Name" />
