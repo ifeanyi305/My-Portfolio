@@ -3,22 +3,22 @@ import React from 'react';
 import Myproject from './Myproject';
 import crypto from './images/crypto-tradeoff.png';
 import bookstore from './images/space-travellers.png';
-import Travellers from './images/travellers.png';
+import MonieWave from './images/MonieWave.png';
 import easyLaunch from './images/easyLaunch.png';
-import budget from './images/budget.jpg';
-import leaderboard from './images/leaderboard.png';
+import oddHaven from './images/oddshaven.png';
+import Dccexchange from './images/Dccexchange.png';
 
 const project = [
   {
-    name: 'Travellers hub',
+    name: 'MonieWave',
     id: 1,
-    img: Travellers,
+    img: MonieWave,
     lang1: 'Ruby on rails',
     lang2: 'React',
     lang4: 'Redux',
-    desc: 'A Fullstack application that allows users to see traveling packages and book based on their preference. rank.',
-    liveDemo: 'https://travelers-hub-front.onrender.com/',
-    github: 'https://github.com/ifeanyi305/travelers_hub_front-end',
+    desc: 'Experience free hassle-free cross-border money transfers with MonieWave. Our innovative fintech platform is dedicated to making it simple for residents of Europe to send money swiftly and securely to Nigeria, and say goodbye to complications and hidden fees, MonieWave is your trustworthy partner for seamless remittances.',
+    liveDemo: 'https://ratehive.netlify.app/',
+    github: 'https://github.com/ifeanyi305/Ratehive_Frontend',
   },
   {
     name: 'Easy Launch',
@@ -32,48 +32,48 @@ const project = [
     github: 'https://github.com/ifeanyi305/initial_coin_offering',
   },
   {
-    name: 'Budget App',
+    name: 'OddsHaven',
     id: 3,
-    img: budget,
-    lang1: 'Ruby on rails',
-    lang2: 'React',
-    lang4: 'Redux',
-    desc: 'Budget App is a mobile web application where you can manage your budget: You have a list of expenses associated with a category, so that you can see how much money you spent and on what.',
-    liveDemo: 'https://budget-bp9n.onrender.com/',
-    github: 'https://github.com/ifeanyi305/Budget-App',
+    img: oddHaven,
+    lang1: 'React',
+    lang2: 'Redux',
+    lang4: 'CSS',
+    desc: 'OddsHaven is a community-based crypto casino that offers its players the best online casino experience possible! At OddsHaven.GG, we are convinced that blockchain will change the online crypto-gambling industry forever! Jump in and check it out for yourself! Have fun and earn crypto Built with',
+    liveDemo: 'https://oddshaven.netlify.app/',
+    github: 'https://github.com/ifeanyi305/beacon',
+  },
+  {
+    name: 'Dcc Exchange',
+    id: 4,
+    img: Dccexchange,
+    lang1: 'React',
+    lang2: 'Javascript',
+    lang4: 'Css',
+    desc: 'Dcc Exchange offers a swift transactions, top-notch security, and a diverse range of crypto currencies',
+    liveDemo: 'https://dccexchange.netlify.app/',
+    github: 'https://github.com/DCC-exchange/client/tree/main',
   },
   {
     name: 'Crypto Tradeoff',
-    id: 4,
+    id: 5,
     img: crypto,
     lang1: 'React',
     lang2: 'Redux',
-    lang4: 'Css',
+    lang4: 'CSS',
     desc: 'Crypto tradeoff is a crypto exchange website that displays list of crypto currency exchange websites based on their rank.',
     liveDemo: 'https://crypto-trade-off.netlify.app/',
     github: 'https://github.com/ifeanyi305/crypto-website',
   },
   {
     name: 'Bookstore',
-    id: 5,
+    id: 6,
     img: bookstore,
     lang1: 'React',
     lang2: 'Redux',
-    lang4: 'Css',
+    lang4: 'CSS',
     desc: 'Welcome to our bookstore! We are a one-stop destination for all your reading needs. Our selection includes a wide range of genres, from fiction to non-fiction, and everything in between. We have a carefully curated selection of the latest bestsellers, as well as classic titles and hidden gems that you may have never heard of before.',
     liveDemo: 'https://ifeanyi305book-store.netlify.app/',
     github: 'https://github.com/ifeanyi305/Book-store',
-  },
-  {
-    name: 'Leaderboard',
-    id: 6,
-    img: leaderboard,
-    lang1: 'Html',
-    lang2: 'Javascript',
-    lang4: 'Css',
-    desc: 'leaderboard game is a type of game that displays a ranking of players based on their performance or score within the game.',
-    liveDemo: 'https://ifeanyi305-leaderboard.netlify.app/',
-    github: 'https://github.com/ifeanyi305/Leaderboard',
   },
 ];
 

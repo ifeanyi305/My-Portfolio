@@ -6,7 +6,6 @@ import github from './images/github.png';
 import html from './images/html.png';
 import javascript from './images/javascript.png';
 import netlify from './images/netlify.png';
-import nodejs from './images/nodeJs.png';
 import react from './images/react.png';
 import redux from './images/redux.png';
 import ruby from './images/ruby.png';
@@ -41,11 +40,6 @@ const Skills = () => {
       name: 'netlify',
       img: netlify,
       id: 5,
-    },
-    {
-      name: 'nodejs',
-      img: nodejs,
-      id: 6,
     },
     {
       name: 'react',
