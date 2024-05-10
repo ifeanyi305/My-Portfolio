@@ -66,7 +66,7 @@ const About = () => {
               <li>Languages: JavaScript, HTML, CSS, Ruby</li>
               <li>
                 Frameworks &
-                Libraries: React, Redux, Rails,
+                Libraries: React, Redux, Rails, node.js,
                 Bootstrap, Tailwind
               </li>
               <li>Databases: PostgreSQL</li>
