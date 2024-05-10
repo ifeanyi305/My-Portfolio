@@ -35,7 +35,7 @@ const Myproject = ({ allProject }) => {
               </ul>
             </div>
             <div className="btn-con">
-              <button type="button"><a target="_blank" rel="noreferrer" href={allProject.liveDemo}>Live</a></button>
+              <button type="button"><a target="_blank" rel="noreferrer" href={allProject.liveDemo}>Visit website</a></button>
               <button type="button"><a target="_blank" rel="noreferrer" href={allProject.github}>Github</a></button>
             </div>
           </div>

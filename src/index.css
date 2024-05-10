@@ -137,6 +137,10 @@ footer li {
   color: #fcbb62;
 }
 
+.myself {
+  border-radius: 5%;
+}
+
 @media screen and (max-width: 700px) {
   .telephone {
     display: none;

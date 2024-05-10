@@ -1,8 +1,8 @@
 import { MdOutlineSend } from 'react-icons/md';
 import React from 'react';
 import Myproject from './Myproject';
-import crypto from './images/crypto-tradeoff.png';
-import bookstore from './images/space-travellers.png';
+import artmint from './images/artmint.png';
+import nmu from './images/nmu voting.png';
 import MonieWave from './images/MonieWave.png';
 import easyLaunch from './images/easyLaunch.png';
 import oddHaven from './images/oddshaven.png';
@@ -10,8 +10,18 @@ import Dccexchange from './images/Dccexchange.png';
 
 const project = [
   {
-    name: 'MonieWave',
+    name: 'ArtMint',
     id: 1,
+    img: artmint,
+    lang1: 'React',
+    lang2: 'Redux',
+    lang4: 'CSS',
+    desc: 'ArtMint is an Art store, where unique digital art and collectibles await.',
+    liveDemo: 'https://www.xartmint.com/',
+  },
+  {
+    name: 'MonieWave',
+    id: 2,
     img: MonieWave,
     lang1: 'Ruby on rails',
     lang2: 'React',
@@ -22,7 +32,7 @@ const project = [
   },
   {
     name: 'Easy Launch',
-    id: 2,
+    id: 3,
     img: easyLaunch,
     lang1: 'Web3 Blockchain',
     lang2: 'React',
@@ -33,7 +43,7 @@ const project = [
   },
   {
     name: 'OddsHaven',
-    id: 3,
+    id: 4,
     img: oddHaven,
     lang1: 'React',
     lang2: 'Redux',
@@ -44,7 +54,7 @@ const project = [
   },
   {
     name: 'Dcc Exchange',
-    id: 4,
+    id: 5,
     img: Dccexchange,
     lang1: 'React',
     lang2: 'Javascript',
@@ -54,26 +64,14 @@ const project = [
     github: 'https://github.com/DCC-exchange/client/tree/main',
   },
   {
-    name: 'Crypto Tradeoff',
-    id: 5,
-    img: crypto,
-    lang1: 'React',
-    lang2: 'Redux',
-    lang4: 'CSS',
-    desc: 'Crypto tradeoff is a crypto exchange website that displays list of crypto currency exchange websites based on their rank.',
-    liveDemo: 'https://crypto-trade-off.netlify.app/',
-    github: 'https://github.com/ifeanyi305/crypto-website',
-  },
-  {
-    name: 'Bookstore',
+    name: 'NMU online voting',
     id: 6,
-    img: bookstore,
+    img: nmu,
     lang1: 'React',
     lang2: 'Redux',
     lang4: 'CSS',
-    desc: 'Welcome to our bookstore! We are a one-stop destination for all your reading needs. Our selection includes a wide range of genres, from fiction to non-fiction, and everything in between. We have a carefully curated selection of the latest bestsellers, as well as classic titles and hidden gems that you may have never heard of before.',
-    liveDemo: 'https://ifeanyi305book-store.netlify.app/',
-    github: 'https://github.com/ifeanyi305/Book-store',
+    desc: 'Nmu online voting allows vote their desired candidate to be awarded at the NMU Pageantry and Awards Night. Each vote cost ₦100 only, and voters are allowed to vote multiple times in any volume',
+    liveDemo: 'https://nmupaa.org/',
   },
 ];
 
@@ -81,7 +79,7 @@ const Project = () => (
   <div id="project">
     <h1 className="project-title">
       <MdOutlineSend />
-      <b>My Project</b>
+      <b>My Projects</b>
     </h1>
     <div className="grid-container">
       {

@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { MdOutlineSend } from 'react-icons/md';
 import myself from '../images/myself.jpg';
+import ifeanyi from '../images/IMG_3115 copy.PNG';
 
 const About = () => {
   const [aboutdesc, setaboutdesc] = useState(false);
@@ -81,7 +82,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <img className="myself" src={myself} alt="About me" height={450} width={450} />
+          <img className="myself" src={ifeanyi} alt="About me" height={500} width={450} />
         </div>
       </div>
     </div>
