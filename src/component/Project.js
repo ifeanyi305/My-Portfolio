@@ -6,12 +6,24 @@ import nmu from './images/nmu voting.png';
 import MonieWave from './images/MonieWave.png';
 import easyLaunch from './images/easyLaunch.png';
 import oddHaven from './images/oddshaven.png';
-import Dccexchange from './images/Dccexchange.png';
+import Fllow from './images/fllow.png';
 
 const project = [
   {
-    name: 'ArtMint',
+    name: 'Fllow',
     id: 1,
+    img: Fllow,
+    lang1: 'Next JS',
+    lang2: 'Javascript',
+    lang3: 'Web3',
+    lang4: 'Convex',
+    desc: 'Fllow is an e-commerce and link in bio platform designed for creators to sell their digital products, online courses, memberships, and create email lists. With Fllow, no coding is required, making it super easy to use for beginners. You really dont need any coding experience to get started. We think even a caveman could do it.',
+    liveDemo: 'https://www.fllow.store/',
+    github: 'https://github.com/V-Blaze/Fllow-FE',
+  },
+  {
+    name: 'ArtMint',
+    id: 2,
     img: artmint,
     lang1: 'React',
     lang2: 'Redux',
@@ -21,7 +33,7 @@ const project = [
   },
   {
     name: 'MonieWave',
-    id: 2,
+    id: 3,
     img: MonieWave,
     lang1: 'Ruby on rails',
     lang2: 'React',
@@ -32,7 +44,7 @@ const project = [
   },
   {
     name: 'Easy Launch',
-    id: 3,
+    id: 4,
     img: easyLaunch,
     lang1: 'Web3 Blockchain',
     lang2: 'React',
@@ -43,7 +55,7 @@ const project = [
   },
   {
     name: 'OddsHaven',
-    id: 4,
+    id: 5,
     img: oddHaven,
     lang1: 'React',
     lang2: 'Redux',
@@ -51,17 +63,6 @@ const project = [
     desc: 'OddsHaven is a community-based crypto casino that offers its players the best online casino experience possible! At OddsHaven.GG, we are convinced that blockchain will change the online crypto-gambling industry forever! Jump in and check it out for yourself! Have fun and earn crypto Built with',
     liveDemo: 'https://oddshaven.netlify.app/',
     github: 'https://github.com/ifeanyi305/beacon',
-  },
-  {
-    name: 'Dcc Exchange',
-    id: 5,
-    img: Dccexchange,
-    lang1: 'React',
-    lang2: 'Javascript',
-    lang4: 'Css',
-    desc: 'Dcc Exchange offers a swift transactions, top-notch security, and a diverse range of crypto currencies',
-    liveDemo: 'https://dccexchange.netlify.app/',
-    github: 'https://github.com/DCC-exchange/client/tree/main',
   },
   {
     name: 'NMU online voting',
