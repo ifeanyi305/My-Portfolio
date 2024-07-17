@@ -39,7 +39,7 @@ const Intro = () => {
             <h1>I&apos;m a web builder.</h1>
             <p>
               I’m a software developer! I can
-              help you build a product, feature or
+              help you build a product, app or
               website, Look through some of my work and
               experience! If you like what you see and have
               a project you need coded, don’t hesitate to contact me.
